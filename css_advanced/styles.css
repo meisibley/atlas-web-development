@@ -1,7 +1,96 @@
-.banner {
+#bgr {
   background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), #000;
-  background: #000 url("./images/Bitmap.png") no-repeat;
+  background: #000 url("./images/hnbbgr.jpeg") no-repeat;
   background-blend-mode: normal, color;
+  <!-- background-image: url("./images/hnbbgr.jpeg");
+  background-repeat: no-repeat;
+  background-position: top; -->
+  z-index: -1;
+}
+
+h1 {
   color: #FFF;
   text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+#words {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  line-height: normal;
+  word-spacing: 50px;
+}
+
+#p16 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#p14 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.banner {
+  color: #FFF;
+  text-align: center;
+}
+
+span {
+  color: #C271FF;
+  font-weight: 700;
+}
+
+button {
+  background: #C271FF;
+  border-radius: 22px;
+  width: 162px;
+  height: 44px;
+  flex-shrink: 0;
+}
+
+#people {
+  width: 1009px;
+  height: 237px;
+  dispay: flex;
+  flex-shrink: 0;
+  justify-content: space-around;
+}
+
+.person {
+  flex-direction: column;
+}
+
+.person img {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;  
+  border-radius: 50%;
 }
