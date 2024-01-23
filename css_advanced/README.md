@@ -17,4 +17,4 @@
 - My code should be W3C compliant and validate with W3C-Validator
 
 # Completed work
-![completed work suppose look like] (./images/finishImage.jpeg)
+![completed work suppose look like](images/finishImage.jpeg)
