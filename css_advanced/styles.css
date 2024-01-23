@@ -2,10 +2,22 @@
   background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), #000;
   background: #000 url("./images/hnbbgr.jpeg") no-repeat;
   background-blend-mode: normal, color;
-  <!-- background-image: url("./images/hnbbgr.jpeg");
-  background-repeat: no-repeat;
-  background-position: top; -->
   z-index: -1;
+}
+
+#hdr {
+  width: 1281.15px;
+  height: 29.46px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 167.016px;
+  height: 29.461px;
+  flex-shrink: 0;
+  margin-left: 130px;
 }
 
 h1 {
@@ -16,7 +28,27 @@ h1 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: 180px;
   margin-bottom: 0px;
+}
+
+#links {
+  display: inline-flex;
+  gap: 52px;
+  height: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+#links a {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
 }
 
 #words {
@@ -26,16 +58,6 @@ h1 {
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
-}
-
-h2 {
-  color: #FFF;
-  text-align: center;
-  font-family: "Source Sans Pro";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 300;
   line-height: normal;
 }
 
@@ -76,21 +98,54 @@ button {
   flex-shrink: 0;
 }
 
+h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 150px;
+  margin-bottom: 70px;
+}
+
 #people {
-  width: 1009px;
-  height: 237px;
+  display: inline-flex;
+  width: 1100px;
+  height: 150px;
   dispay: flex;
   flex-shrink: 0;
   justify-content: space-around;
 }
 
 .person {
-  flex-direction: column;
+  width: 150px;
+  height: 230px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
 }
 
 .person img {
-  width: 150px;
   height: 150px;
   flex-shrink: 0;  
   border-radius: 50%;
+}
+
+.person h3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 27px; /* 150% */
+}
+
+.person p {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  white-space: nowrap;
+  word-spacing: -1px;
 }
