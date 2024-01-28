@@ -232,7 +232,7 @@ h2 {
   display: flex;
   align-items: center;
   flex-shrink: 0;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .videos h1 {
@@ -243,17 +243,17 @@ h2 {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  margin-top: 5px;
-  /* margin-bottom: 70px; */
+  padding: 50px 0px 50px 250px;
+  margin: 0px;
 }
 
 #videos-div {
-  width: 80%;
+  width: 100%;
   height: 335px;
   display: flex;
   flex-shrink: 0;
   justify-content: space-between;
-  margin-left: 110px;
+  margin-left: 120px;
 }
 
 .video-div {
@@ -275,7 +275,7 @@ h2 {
   z-index: 1;
 } */
 
-#videos play-btn1 {
+#play-btn1 {
   position: relative;
   display: flex;
   justify-content: center;
@@ -289,21 +289,7 @@ h2 {
   z-index: 2;
 }
 
-#videos play-btn1 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 255px;
-  height: 154px;
-  background: url('./images/tutor1.png');
-  flex-shrink: 0;
-  border-radius: 5px 5px 0px 0px;
-  background: #D8D8D8;
-  z-index: 2;
-}
-
-#videos play-btn2 {
+#play-btn2 {
   position: relative;
   display: flex;
   justify-content: center;
@@ -317,7 +303,7 @@ h2 {
   z-index: 2;
 }
 
-#videos play-btn3 {  
+#play-btn3 {  
   position: relative;
   display: flex;
   justify-content: center;
@@ -331,7 +317,7 @@ h2 {
   z-index: 2;
 }
 
-#videos play-btn4 {  
+#play-btn4 {  
   position: relative;
   display: flex;
   justify-content: center;
@@ -345,7 +331,7 @@ h2 {
   z-index: 2;
 }
 
-.videos h2 {
+.video-div h2 {
   color: #071629;
   font-family: "Source Sans Pro";
   font-size: 16px;
@@ -354,4 +340,64 @@ h2 {
   line-height: normal;
   width: 106px;
   height: 20px;
+  margin: 5px 10px;
+}
+
+.video-div p {
+  color: rgba(7, 22, 41, 0.50);
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-styple: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  padding-left: 10px;
+  margin: 0px 10px;
+  text-align: left;
+  word-spacing: -1px;
+}
+
+#smallImage {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 0;
+}
+
+#smallImage img {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  margin: 10px 10px 10px 0px;
+}
+
+#smallImage h3 {
+  color: #C271FF;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px; /* 192.857% */
+}
+
+.rating {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rating img {
+  width: 107px;
+  height: 15px;
+  flex-shrink: 0;
+  /* margin-left: 0px; */
+  padding: 10px 10px 10px 0px;
+}
+
+.rating p {
+  color: #C271FF;
+  text-align: right;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px; /* 192.857 */
 }
