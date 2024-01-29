@@ -215,7 +215,7 @@ h2 {
 }
 
 .bold {
-  font-style: bold;
+  font-style: normal;
   font-weight: 700;
 }
 
@@ -267,14 +267,6 @@ h2 {
   box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
   z-index: 1;
 }
-
-/* .videos img {
-  width: 255px;
-  height: 154px;
-  flex-shrink: 0;
-  border-radius: 5px;
-  z-index: 1;
-} */
 
 #play-btn1 {
   position: relative;
@@ -411,7 +403,6 @@ h2 {
   width: 100%;
   height: 502px;
   flex-direction: column;
-  /* flex-shrink: 0; */
   align-items: center;
   justify-content: space-between;
 }
@@ -479,4 +470,117 @@ h2 {
 button {
   margin-top: 0px;
   margin-bottom: 60px;
+}
+
+#faq {
+  display: flex;
+  background-color: #FFF;
+  width: 100%;
+  height: 800px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#faq-cont {
+  width: 920px;
+  height: 100%;
+  flex-shrink: 0;
+  margin-top: 0px;
+}
+
+#faq h1 {
+  color: #071629;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 80px;
+  margin-left: 0;
+  /* text-align: center; */
+  margin-bottom: 0px;
+}
+
+.faq-qna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block {
+  display: flex;
+  width: 350px;
+  height: 260px;
+  /* flex-shrink: 0; */
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0px;
+}
+
+.block h2 {
+  color: #071629;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.block p {
+  color: rgba(7, 22, 41, 0.50);
+  width: 330px;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  word-spacing: -1px;
+  margin-top: 0px;
+  z-index: 2;
+}
+
+footer {
+  width: 100%;
+  height: 249px;
+  flex-shrink: 0px;
+  background: #071629;
+}
+
+.foot-notes {
+  width: 75%;
+  height: 60px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  margin-left: 75px;
+  padding-top: 80px;
+}
+
+.foot-notes div {
+  align-items: left;
+}
+
+footer p {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  word-spacing: -1px;
+  margin-top: 50px;
 }
